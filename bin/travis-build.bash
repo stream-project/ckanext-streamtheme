@@ -32,7 +32,7 @@ cd ckan
 paster db init -c test-core.ini
 cd -
 
-echo "Installing ckanext-TIBtheme and its requirements..."
+echo "Installing ckanext-STREAMtheme and its requirements..."
 python setup.py develop
 pip install -r dev-requirements.txt
 

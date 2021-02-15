@@ -1,35 +1,5 @@
-.. You should enable this project on travis-ci.org and coveralls.io to make
-   these badges work. The necessary Travis and Coverage config files have been
-   generated for you.
-
-.. image:: https://travis-ci.org/guillermobet/ckanext-TIBtheme.svg?branch=master
-    :target: https://travis-ci.org/guillermobet/ckanext-TIBtheme
-
-.. image:: https://coveralls.io/repos/guillermobet/ckanext-TIBtheme/badge.svg
-  :target: https://coveralls.io/r/guillermobet/ckanext-TIBtheme
-
-.. image:: https://pypip.in/download/ckanext-TIBtheme/badge.svg
-    :target: https://pypi.python.org/pypi//ckanext-TIBtheme/
-    :alt: Downloads
-
-.. image:: https://pypip.in/version/ckanext-TIBtheme/badge.svg
-    :target: https://pypi.python.org/pypi/ckanext-TIBtheme/
-    :alt: Latest Version
-
-.. image:: https://pypip.in/py_versions/ckanext-TIBtheme/badge.svg
-    :target: https://pypi.python.org/pypi/ckanext-TIBtheme/
-    :alt: Supported Python versions
-
-.. image:: https://pypip.in/status/ckanext-TIBtheme/badge.svg
-    :target: https://pypi.python.org/pypi/ckanext-TIBtheme/
-    :alt: Development Status
-
-.. image:: https://pypip.in/license/ckanext-TIBtheme/badge.svg
-    :target: https://pypi.python.org/pypi/ckanext-TIBtheme/
-    :alt: License
-
 =============
-ckanext-TIBtheme
+ckanext-STREAMtheme
 =============
 
 .. Put a description of your extension here:
@@ -53,17 +23,17 @@ Installation
    For example installing any non-Python dependencies or adding any required
    config settings.
 
-To install ckanext-TIBtheme:
+To install ckanext-STREAMtheme:
 
 1. Activate your CKAN virtual environment, for example::
 
      . /usr/lib/ckan/default/bin/activate
 
-2. Install the ckanext-TIBtheme Python package into your virtual environment::
+2. Install the ckanext-STREAMtheme Python package into your virtual environment::
 
-     pip install ckanext-TIBtheme
+     pip install ckanext-STREAMtheme
 
-3. Add ``TIBtheme`` to the ``ckan.plugins`` setting in your CKAN
+3. Add ``STREAMtheme`` to the ``ckan.plugins`` setting in your CKAN
    config file (by default the config file is located at
    ``/etc/ckan/default/production.ini``).
 
@@ -80,18 +50,18 @@ Document any optional config settings here. For example::
 
     # The minimum number of hours to wait before re-checking a resource
     # (optional, default: 24).
-    ckanext.TIBtheme.some_setting = some_default_value
+    ckanext.STREAMtheme.some_setting = some_default_value
 
 
 ------------------------
 Development Installation
 ------------------------
 
-To install ckanext-TIBtheme for development, activate your CKAN virtualenv and
+To install ckanext-STREAMtheme for development, activate your CKAN virtualenv and
 do::
 
-    git clone https://github.com/guillermobet/ckanext-TIBtheme.git
-    cd ckanext-TIBtheme
+    git clone https://github.com/guillermobet/ckanext-STREAMtheme.git
+    cd ckanext-STREAMtheme
     python setup.py develop
     pip install -r dev-requirements.txt
 
@@ -107,15 +77,15 @@ To run the tests, do::
 To run the tests and produce a coverage report, first make sure you have
 coverage installed in your virtualenv (``pip install coverage``) then run::
 
-    nosetests --nologcapture --with-pylons=test.ini --with-coverage --cover-package=ckanext.TIBtheme --cover-inclusive --cover-erase --cover-tests
+    nosetests --nologcapture --with-pylons=test.ini --with-coverage --cover-package=ckanext.STREAMtheme --cover-inclusive --cover-erase --cover-tests
 
 
 ---------------------------------
-Registering ckanext-TIBtheme on PyPI
+Registering ckanext-STREAMtheme on PyPI
 ---------------------------------
 
-ckanext-TIBtheme should be availabe on PyPI as
-https://pypi.python.org/pypi/ckanext-TIBtheme. If that link doesn't work, then
+ckanext-STREAMtheme should be availabe on PyPI as
+https://pypi.python.org/pypi/ckanext-STREAMtheme. If that link doesn't work, then
 you can register the project on PyPI for the first time by following these
 steps:
 
@@ -140,10 +110,10 @@ steps:
 
 
 ----------------------------------------
-Releasing a New Version of ckanext-TIBtheme
+Releasing a New Version of ckanext-STREAMtheme
 ----------------------------------------
 
-ckanext-TIBtheme is availabe on PyPI as https://pypi.python.org/pypi/ckanext-TIBtheme.
+ckanext-STREAMtheme is availabe on PyPI as https://pypi.python.org/pypi/ckanext-STREAMtheme.
 To publish a new version to PyPI follow these steps:
 
 1. Update the version number in the ``setup.py`` file.
